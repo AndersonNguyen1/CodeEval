@@ -12,5 +12,9 @@ File.open(ARGV[0]).each_line do |line|
       sum += 1
     end
   end
-  puts 'lowercase: ' + ((low_count.to_f/sum)*100).to_s.ljust(10, '0') + ' ' 'uppercase: ' + ((upper_count.to_f/sum)*100).to_s.ljust(10, '0')
+
+  lower_ratio = sprintf "%#.2f", (low_count.to_f/sum)*100
+  upper_ratio = sprintf "%#.2f", (upper_count.to_f/sum)*100
+
+  puts "lowercase: #{lower_ratio} uppercase: #{upper_ratio}"
 end
