@@ -2,7 +2,6 @@ def happy_check(number_string)
 
 end
 
-#dfsdfdf
 number_list = []
 solutions = []
 
