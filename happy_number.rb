@@ -12,7 +12,7 @@ File.open(ARGV[0]).each_line do |line|
     if splitNumbers[index].to_i == 1
       solutions << 1
     else
-      happy_check(line)
+      happy_check(splitNumbers)
     end
   end
 end
