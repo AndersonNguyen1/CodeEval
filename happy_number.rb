@@ -21,10 +21,7 @@
 
 def happy_check(x)
   return 1 if number.to_i == 1
-  # check if the number is one
-  # otherwise, split the number and square each number
-  # sum them back together and store it into an array
-  # make
+  if
 
 def happy?(number)
   history = {}

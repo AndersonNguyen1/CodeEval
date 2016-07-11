@@ -3,6 +3,9 @@ File.open(ARGV[0]).each_line do |line|
 
   binary_array = []
 
+  for length [, variable ...] in expression [do]
+     code
+  end
   length.to_i.each do |length|
     binary_array << length.to_s(2)
   end
